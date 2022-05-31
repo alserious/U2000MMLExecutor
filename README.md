@@ -1,9 +1,9 @@
-# Huawei RAN OSS U2000
+# U2000_MML_Executor
 
-Script for auto upload and execute MML command to U2000, and download results from OSS HUAWEI U2000 to local storage.
+Script for auto upload and execute MML commands on U2000 OSS Huawei, and download results.
 
 1. Need create MML commands file for example "file1.txt".
-2. Call thread_function
+2. Call thread_function.
 
 ```python
 def thread_function(args):
